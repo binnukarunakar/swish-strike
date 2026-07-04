@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  web:
+    name: Web engine + pipeline (node)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test
+        working-directory: web-prototype
+
+  core:
+    name: Swift engine + cross-language parity
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Headless engine checks
+        run: swift run SwishStrikeCoreCheck
+        working-directory: ios/SwishStrikeCore
+      - name: JS↔Swift golden parity
+        run: swift run SwishStrikeParity
+        working-directory: ios/SwishStrikeCore
+      - name: XCTest suite
+        run: swift test
+        working-directory: ios/SwishStrikeCore
+
+  ios-build:
+    name: iOS app builds (simulator, no signing)
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild -project ios/SwishStrikeApp/SwishStrike.xcodeproj -scheme SwishStrike \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO build

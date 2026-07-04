@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B0E" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="amb" cx="0.5" cy="0.36" r="0.75">
+      <stop offset="0" stop-color="#FFB52E" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#FFB52E" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB52E"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="#0A0B0E"/>
+  <rect width="400" height="500" fill="url(#amb)"/>
+  
+      <path d="M90 370 L170 150 L320 175 L270 400 Z" fill="url(#board)"/>
+      <path d="M90 370 L170 150 L320 175 L270 400 Z" fill="none" stroke="#FDE68A" stroke-width="1.5" opacity="0.4"/>
+      <ellipse cx="222" cy="205" rx="26" ry="16" fill="#0A0B0E"/>
+      <ellipse cx="222" cy="203" rx="26" ry="16" fill="none" stroke="#D97706" stroke-width="3"/>
+      <path d="M70 360 Q140 220 200 210" fill="none" stroke="#FFB52E" stroke-width="3" stroke-dasharray="6 8" opacity="0.45"/>
+      <rect x="58" y="338" width="34" height="34" rx="8" fill="#FDE68A" transform="rotate(-18 75 355)"/>
+  <rect x="0" y="225" width="400" height="275" fill="url(#scrim)"/>
+</svg>

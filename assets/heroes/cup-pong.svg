@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B0E" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="amb" cx="0.5" cy="0.36" r="0.75">
+      <stop offset="0" stop-color="#FF5147" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#FF5147" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF5147"/><stop offset="1" stop-color="#C81E1E"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="#0A0B0E"/>
+  <rect width="400" height="500" fill="url(#amb)"/>
+  
+      <path d="M70 130 Q190 80 262 196" fill="none" stroke="#FF5147" stroke-width="3" stroke-dasharray="6 8" opacity="0.5"/>
+      <circle cx="86" cy="138" r="15" fill="#F4F6FA"/><circle cx="81" cy="133" r="5" fill="#fff" opacity="0.6"/>
+      <g transform="translate(150 240) scale(0.92)">
+        <path d="M-26 0 L26 0 L20 64 L-20 64 Z" fill="url(#cup)"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="#7F1D1D"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#FCA5A5" stroke-width="2" opacity="0.7"/>
+        <path d="M-24 14 L24 14" stroke="#FECACA" stroke-width="3" opacity="0.35"/></g> <g transform="translate(266 240) scale(0.92)">
+        <path d="M-26 0 L26 0 L20 64 L-20 64 Z" fill="url(#cup)"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="#7F1D1D"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#FCA5A5" stroke-width="2" opacity="0.7"/>
+        <path d="M-24 14 L24 14" stroke="#FECACA" stroke-width="3" opacity="0.35"/></g>
+      <g transform="translate(208 210) scale(0.96)">
+        <path d="M-26 0 L26 0 L20 64 L-20 64 Z" fill="url(#cup)"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="#7F1D1D"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#FCA5A5" stroke-width="2" opacity="0.7"/>
+        <path d="M-24 14 L24 14" stroke="#FECACA" stroke-width="3" opacity="0.35"/></g>
+      <g transform="translate(208 300) scale(1.06)">
+        <path d="M-26 0 L26 0 L20 64 L-20 64 Z" fill="url(#cup)"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="#7F1D1D"/>
+        <ellipse cx="0" cy="0" rx="26" ry="9" fill="none" stroke="#FCA5A5" stroke-width="2" opacity="0.7"/>
+        <path d="M-24 14 L24 14" stroke="#FECACA" stroke-width="3" opacity="0.35"/></g>
+      <ellipse cx="208" cy="392" rx="120" ry="14" fill="#FF5147" opacity="0.10"/>
+  <rect x="0" y="225" width="400" height="275" fill="url(#scrim)"/>
+</svg>

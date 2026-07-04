@@ -1,0 +1,13 @@
+{
+  "name": "swish-strike-web-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Runnable proof-of-concept for Swish Strike — shares the real counting engine with the iOS app.",
+  "scripts": {
+    "serve": "python3 -m http.server 8777",
+    "test": "node --test",
+    "test:ui": "python3 test/ui_smoke.py",
+    "gen:heroes": "node tools/gen-heroes.mjs"
+  }
+}

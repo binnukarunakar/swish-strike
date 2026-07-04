@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B0E" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="amb" cx="0.5" cy="0.36" r="0.75">
+      <stop offset="0" stop-color="#FF4D8D" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#FF4D8D" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cb" cx="0.4" cy="0.35" r="0.8"><stop offset="0" stop-color="#FBCFE8"/><stop offset="1" stop-color="#FF4D8D"/></radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="#0A0B0E"/>
+  <rect width="400" height="500" fill="url(#amb)"/>
+  
+      <path d="M95 360 Q205 120 305 200" fill="none" stroke="#FF4D8D" stroke-width="3" stroke-dasharray="6 9" opacity="0.45"/>
+      <g transform="translate(95 330) scale(1.1) rotate(-10)"><path d="M0 0 q-30 -8 -30 22 q0 30 34 30 q40 0 40 -34 q0 -22 -22 -22 q-2 -18 -22 -18 z" fill="#FF4D8D"/><path d="M0 0 q-30 -8 -30 22" fill="none" stroke="#DB2777" stroke-width="3" opacity="0.5"/></g>
+      <g transform="translate(300 175) scale(1.05) rotate(165)"><path d="M0 0 q-30 -8 -30 22 q0 30 34 30 q40 0 40 -34 q0 -22 -22 -22 q-2 -18 -22 -18 z" fill="#FF4D8D"/><path d="M0 0 q-30 -8 -30 22" fill="none" stroke="#DB2777" stroke-width="3" opacity="0.5"/></g>
+      <circle cx="205" cy="172" r="26" fill="url(#cb)"/><circle cx="197" cy="164" r="8" fill="#fff" opacity="0.4"/>
+  <rect x="0" y="225" width="400" height="275" fill="url(#scrim)"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B0E" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="amb" cx="0.5" cy="0.36" r="0.75">
+      <stop offset="0" stop-color="#D4FF3D" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#D4FF3D" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tn" cx="0.4" cy="0.35" r="0.8"><stop offset="0" stop-color="#ECFF8A"/><stop offset="0.5" stop-color="#D4FF3D"/><stop offset="1" stop-color="#A3E635"/></radialGradient>
+      <linearGradient id="streak" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D4FF3D" stop-opacity="0"/><stop offset="1" stop-color="#D4FF3D" stop-opacity="0.5"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="#0A0B0E"/>
+  <rect width="400" height="500" fill="url(#amb)"/>
+  
+      <path d="M60 360 L150 420 M90 330 L180 390 M120 300 L210 360" stroke="#D4FF3D" stroke-width="2" opacity="0.22"/>
+      <path d="M120 320 L250 165" stroke="url(#streak)" stroke-width="34" stroke-linecap="round" opacity="0.5"/>
+      <circle cx="270" cy="150" r="52" fill="url(#tn)"/>
+      <path d="M232 120 Q286 150 232 182 M308 120 Q254 150 308 182" fill="none" stroke="#F4F6FA" stroke-width="2.4" opacity="0.9"/>
+      <circle cx="252" cy="132" r="13" fill="#fff" opacity="0.22"/>
+  <rect x="0" y="225" width="400" height="275" fill="url(#scrim)"/>
+</svg>

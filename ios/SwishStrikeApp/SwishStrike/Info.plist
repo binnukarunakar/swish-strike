@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>Swish Strike</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <!-- Required: the app uses the camera to watch the ball and count scores.
+         No video is recorded or uploaded — all detection is on-device. -->
+    <key>NSCameraUsageDescription</key>
+    <string>Swish Strike uses the camera to watch the ball and count your scores. Nothing is recorded or uploaded — all detection happens on your device.</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <!-- Solid brand-dark launch screen; no storyboard, no image. -->
+    <key>UILaunchScreen</key>
+    <dict>
+        <key>UIColorName</key>
+        <string>LaunchBackground</string>
+    </dict>
+    <!-- Portrait only: capture rotation is locked to portrait so detection
+         coordinates always match the preview; a landscape UI would let the
+         preview and the detection space disagree. -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>arm64</string>
+        <string>video-camera</string>
+    </array>
+</dict>
+</plist>

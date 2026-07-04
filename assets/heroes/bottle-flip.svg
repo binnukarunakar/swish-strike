@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img">
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B0E" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="amb" cx="0.5" cy="0.36" r="0.75">
+      <stop offset="0" stop-color="#2E7DFF" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#2E7DFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0B0E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DA8FF"/><stop offset="0.4" stop-color="#2E7DFF"/><stop offset="1" stop-color="#1D4ED8"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="#0A0B0E"/>
+  <rect width="400" height="500" fill="url(#amb)"/>
+  
+      <path d="M150 360 Q210 150 300 250" fill="none" stroke="#2E7DFF" stroke-width="2.5" stroke-dasharray="5 8" opacity="0.4"/>
+      <line x1="60" y1="392" x2="340" y2="392" stroke="#2E7DFF" stroke-width="2" opacity="0.4"/>
+      <g transform="translate(165 250) rotate(150)"><g opacity="0.18"><rect x="-22" y="-18" width="44" height="86" rx="16" fill="#2E7DFF"/><rect x="-11" y="-44" width="22" height="30" rx="7" fill="#2E7DFF"/><rect x="-9" y="-54" width="18" height="12" rx="4" fill="#2E7DFF"/></g></g>
+      <g transform="translate(230 200) rotate(95)"><g opacity="0.22"><rect x="-22" y="-18" width="44" height="86" rx="16" fill="#2E7DFF"/><rect x="-11" y="-44" width="22" height="30" rx="7" fill="#2E7DFF"/><rect x="-9" y="-54" width="18" height="12" rx="4" fill="#2E7DFF"/></g></g>
+      <g transform="translate(300 330) rotate(0)"><g opacity="1"><rect x="-22" y="-18" width="44" height="86" rx="16" fill="url(#bot)"/><rect x="-11" y="-44" width="22" height="30" rx="7" fill="url(#bot)"/><rect x="-9" y="-54" width="18" height="12" rx="4" fill="url(#bot)"/></g><rect x="-19" y="20" width="38" height="44" rx="12" fill="#BFDBFE" opacity="0.35"/></g>
+  <rect x="0" y="225" width="400" height="275" fill="url(#scrim)"/>
+</svg>
