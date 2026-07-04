@@ -1,3 +1,4 @@
+import AVFoundation
 import CoreMedia
 import Foundation
 import Observation
@@ -136,7 +137,7 @@ final class GameSession {
         }
     }
 
-    var cameraSession: CameraManager { camera }
+    var cameraSession: AVCaptureSession { camera.session }
 
     private func startSimLoop() {
         permission = .granted
