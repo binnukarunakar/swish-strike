@@ -1,4 +1,5 @@
 import SwiftUI
+import SwishStrikeCore
 
 /// A tappable game tile: hero art, title, sport·mode tag, flagship + PB badges.
 struct GameCardView: View {
